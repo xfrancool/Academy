@@ -138,7 +138,7 @@ address {
     opacity: 55%;
   }
   #fuente-personalizada {
-    font-size: 60px;
+    font-size: 30px;
   }
   #fuente-nueva {
     font-size: 7px;
@@ -150,12 +150,12 @@ address {
   }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 700px) {
+@media only screen and (min-width: 360px) and (max-width: 740px) {
   #fuente-personalizada {
     position: relative;
     top: 6px;
     right: 6px;
-    font-size: 62px;
+    font-size: 39px;
   }
   #linky {
     font-size: 25px;
@@ -169,6 +169,14 @@ address {
   #edades {
     position: relative;
     top: 20px;
+  }
+  #cardin {
+    width: 301px;
+    height: 400px;
+    margin-bottom: 30px;
+    position: relative;
+    right: 0.5cm;
+    padding-top: 0%;
   }
 }
 
@@ -415,7 +423,7 @@ ion-icon {
   padding: 0 18px 0 18px;
 }
 
-.card {
+#card {
   border-radius: 18px;
   background: #beb1c5;
   margin-bottom: 12px;
@@ -425,4 +433,7 @@ ion-icon {
   width: 650px;
   height: 350px;
   border-radius: 6px;
+}
+#cardin {
+  background: #beb1c5;
 }
