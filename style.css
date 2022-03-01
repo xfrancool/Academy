@@ -1,0 +1,395 @@
+html {
+  scroll-behavior: smooth;
+}
+#container {
+  background-color: rgb(139, 129, 204);
+  padding: 0, 0, 0, 0;
+}
+
+#redes {
+  letter-spacing: 0.25cm;
+  position: relative;
+  left: -0.25cm;
+
+  border: radius 5px;
+  /*font-size: 1px;
+    padding-bottom: 0%;
+    */
+}
+
+#cabecera {
+  background: darkgray;
+  letter-spacing: 0.11cm;
+  font-size: 85px;
+}
+
+header {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+nav,
+article {
+  border: 1px solid black;
+}
+
+#exc {
+  border: 1px solid black;
+}
+
+body {
+  text-align: center;
+  background-position: center;
+  background-color: transparent;
+}
+
+.agrupar {
+  margin: auto;
+  background: rgb(139, 129, 204);
+
+  border-radius: 5px;
+}
+
+.m li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  font: bold 14px verdana;
+  text-align: left;
+}
+
+.m {
+  text-align: left;
+  text-decoration: none;
+}
+
+#section {
+  float: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(197, 179, 197);
+}
+
+article {
+  background: #beb1c5, border 1px solid #999;
+}
+
+article p {
+  font-family: "Alata", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Patua One", cursive;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  flex: 1 50%;
+}
+
+.columna blockquote {
+  border: solid black 2px;
+  padding: 10px;
+  background: #b5abd1;
+  margin-bottom: 20px;
+}
+
+/* img {
+  width: 80px;
+  display: block;
+  margin: 20px auto;
+} */
+
+address {
+  text-decoration-color: black;
+  background-color: slategrey;
+}
+
+/* Whatsapp*/
+
+.btn-wsp {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  line-height: 43px;
+  bottom: 25px;
+  right: 37px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 26px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 300ms ease;
+}
+
+.btn-wsp:hover {
+  background: #20ba5a;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 45px;
+    height: 45px px;
+    line-height: 43px;
+    opacity: 55%;
+  }
+  #fuente-personalizada {
+    font-size: 60px;
+  }
+  #fuente-nueva {
+    font-size: 7px;
+  }
+}
+@media only screen and (min-width: 430px) and (max-width: 768px) {
+  #fuente-personalizada {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  #fuente-personalizada {
+    position: relative;
+    top: 6px;
+    right: 18px;
+    font-size: 36px;
+  }
+  #linky {
+    font-size: 25px;
+  }
+
+  #hd {
+    font-size: 50px;
+  }
+}
+
+/* Boton neon */
+
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+.btn-neon:hover {
+  background: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+  transition-delay: 1s;
+  color: black;
+}
+
+.btn-neon span {
+  position: absolute;
+  display: block;
+}
+
+#span1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #a945c7);
+}
+
+.btn-neon:hover #span1 {
+  left: 100%;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+#span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #a945c7);
+  border-radius: 5px;
+}
+
+.btn-neon:hover #span3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+#span2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #a945c7);
+}
+
+.btn-neon:hover #span2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span4 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #a945c7);
+}
+
+.btn-neon:hover #span4 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+/* fuente */
+
+@font-face {
+  font-family: "miFuente";
+  src: url(Font/3D/Sketch\ 3D.otf);
+}
+
+#fuente-personalizada {
+  font-family: "miFuente";
+}
+
+@font-face {
+  font-family: "miFuente2";
+  src: url(Font/Cappung/Cappung\ Font\ by\ 7NTypes.otf);
+}
+
+#fuente-nueva {
+  font-family: "miFuente2";
+  font-size: 46px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  letter-spacing: 1.5px;
+}
+
+/* imagen */
+
+/* .img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  position: relative;
+  top: 2px;
+  width: 310px;
+  height: 400px;
+  background: url("img/1.jpg");
+  background-size: 100% 100%;
+  border-radius: 25px;
+} */
+
+/* Texto "Mi objetivo es" */
+
+/*  Cajas animada*/
+
+.caja {
+  background: rgb(139, 129, 204);
+
+  margin-left: 1cm;
+  margin-top: 0.5cm;
+  padding: 0, 0, 0, 0;
+  width: fit-content;
+  height: 50px;
+  width: 20%;
+}
+
+/* imagen animada */
+
+#animada {
+  width: 260px;
+  height: 199px;
+  position: absolute;
+  padding-right: 80%;
+  bottom: 7.5cm;
+  left: 5cm;
+  padding-left: 0.2cm;
+  bottom: 9.01cm;
+}
+
+video {
+  border-radius: 6px;
+}
+
+#fondov {
+  position: fixed;
+  min-width: 100%;
+  min-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: -1;
+  background-size: cover;
+}
+
+/* RESPONSIVE DESING
+    - 1º) Desktops
+    - 2º) Tablets
+    - 3º) Smartphones
+    (dese ser este orden en CSS)
+ */
+
+/* Punto de ruptura: TABLETS
+//////////////////////////// */
+
+/* header */
+
+script {
+  background-color: #a945c7;
+}
+/* redes */
+ion-icon {
+  color: white;
+}
+ion-icon {
+  font-size: 30px;
+}
+
+.card-body {
+  border-radius: 25px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+}
+
+#men {
+  position: relative;
+  top: 1px;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+#men a {
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#men a:hover {
+  color: turquoise;
+  transition-duration: 1s;
+}
+#men p a {
+  color: rgb(94, 93, 167);
+}
+
+.teacher {
+  width: 180px;
+  height: 130px;
+}
+.prof1 {
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.prof1 p {
+  margin-bottom: 25px;
+}
+.text-t {
+  font-weight: bold;
+  color: ;
+}
