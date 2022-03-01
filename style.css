@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 #container {
-  background-color: rgb(139, 129, 204);
+  /* background-color: rgb(139, 129, 204); */
+
   padding: 0, 0, 0, 0;
 }
 
@@ -64,12 +65,12 @@ body {
 }
 
 #section {
-  float: left;
   border: 1px solid black;
   border-radius: 8px;
   background-color: rgb(197, 179, 197);
   padding: 0 20px 0 20px;
   border: 2px solid black;
+  margin-bottom: 0%;
 }
 
 article {
@@ -177,6 +178,15 @@ address {
     position: relative;
     right: 0.5cm;
     padding-top: 0%;
+  }
+  #imgnew {
+    opacity: 25%;
+    margin-bottom: 18px;
+    height: 20px;
+  }
+  #img1 {
+    width: 85px;
+    position: relative;
   }
 }
 
@@ -398,7 +408,7 @@ ion-icon {
 }
 
 .teacher {
-  width: 200px;
+  width: 250px;
   height: 150px;
 }
 .prof1 {
@@ -411,6 +421,7 @@ ion-icon {
 }
 .text-t {
   font-weight: bold;
+  color: #131313;
 }
 #aside {
   background: #beb1c5;
@@ -436,4 +447,43 @@ ion-icon {
 }
 #cardin {
   background: #beb1c5;
+}
+
+/* Carousel*/
+.swiper {
+  width: 300px;
+  height: 380px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+#img1 {
+  width: 168px;
+  position: relative;
+  left: 70px;
+}
+
+.estrellas {
+  color: yellow;
+}
+#carousel1 {
+  position: relative;
+  right: 17px;
+}
+#imgnew {
+  width: 750px;
+  position: relative;
+  right: 0.6cm;
+  top: 13px;
+  height: 350px;
 }
