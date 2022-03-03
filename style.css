@@ -212,6 +212,14 @@ address {
     margin-top: -8px;
   }
 
+  /* body {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    left: 28px;
+    top: 5px;
+  } */
+
   /* .slider {
     width: 100%;
     margin: auto;
@@ -507,7 +515,7 @@ ion-icon {
 /* Carousel*/
 .swiper {
   width: 300px;
-  height: 580px;
+  height: 592px;
 }
 
 .swiper-slide {
@@ -537,19 +545,33 @@ ion-icon {
 }
 #particular {
   width: 35px;
-  height: 23px;
+  height: 21px;
   position: relative;
-  top: 21px;
-  left: 40px;
+  top: 22px;
+  left: 43px;
 }
 #grupal {
+  
   width: 40px;
-  height: 27px;
+  height: 29px;
   position: relative;
   top: 21px;
-  left: 40px;
+  left: 39px;
+}
+#gr {
+  position: relative;
+  right:16px;
 }
 
+.grupo2 {
+  position: relative;
+  bottom: 18px;
+}
+#icongr {
+  position: relative;
+  left: 22px;
+  bottom: 3px;
+}
 .icon-acord {
   width: 40px;
   height: 27px;
@@ -590,6 +612,7 @@ ion-icon {
   overflow: hidden;
   margin-bottom: 0%;
   margin-top: 2px;
+  
 }
 
 .slider ul {
@@ -610,6 +633,7 @@ ion-icon {
   width: 100%;
 
   height: 70%;
+  border-radius: 38px;
 }
 
 @keyframes cambio {
