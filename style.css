@@ -515,7 +515,7 @@ ion-icon {
 /* Carousel*/
 .swiper {
   width: 300px;
-  height: 592px;
+  height: 812px;
 }
 
 .swiper-slide {
@@ -551,7 +551,6 @@ ion-icon {
   left: 43px;
 }
 #grupal {
-  
   width: 40px;
   height: 29px;
   position: relative;
@@ -560,7 +559,7 @@ ion-icon {
 }
 #gr {
   position: relative;
-  right:16px;
+  right: 16px;
 }
 
 .grupo2 {
@@ -569,14 +568,33 @@ ion-icon {
 }
 #icongr {
   position: relative;
-  left: 22px;
-  bottom: 3px;
+  left: 20px;
 }
 .icon-acord {
   width: 40px;
   height: 27px;
 }
-
+#pcard {
+  position: relative;
+  bottom: 10px;
+  left: 26px;
+  margin-bottom: -12px;
+  bottom: 25px;
+}
+#pcardh {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  margin-bottom: -12px;
+  bottom: 25px;
+}
+#icontres {
+  width: 40px;
+  height: 29px;
+  position: relative;
+  bottom: 3px;
+  left: 39px;
+}
 /*-------------------*/
 #carousel1 {
   position: relative;
@@ -612,7 +630,6 @@ ion-icon {
   overflow: hidden;
   margin-bottom: 0%;
   margin-top: 2px;
-  
 }
 
 .slider ul {
@@ -667,4 +684,10 @@ ion-icon {
 
 #qs {
   margin-top: 15px;
+}
+
+#gif {
+  width: 60px;
+  height: 45px;
+  border-radius: 37px;
 }
