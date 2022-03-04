@@ -211,6 +211,37 @@ address {
     font-size: 40px;
     margin-top: -8px;
   }
+  #qs {
+    margin-top: 15px;
+  }
+
+  #pf {
+    position: relative;
+    left: 36px;
+  }
+
+  #gif2 {
+    width: 60px;
+    height: 47px;
+    border-radius: 37px;
+    position: relative;
+    left: 24px;
+  }
+  #qsomos {
+    position: relative;
+    right: 25px;
+    top: 40px;
+  }
+  #gif3 {
+    position: relative;
+    bottom: 64px;
+    left: 135px;
+    top: -20px;
+  }
+  #time {
+    position: relative;
+    top: 12px;
+  }
 
   /* body {
     margin: 0%;
@@ -687,6 +718,16 @@ ion-icon {
 }
 
 #gif {
+  width: 60px;
+  height: 47px;
+  border-radius: 37px;
+}
+#gif2 {
+  width: 60px;
+  height: 47px;
+  border-radius: 37px;
+}
+#gif3 {
   width: 60px;
   height: 47px;
   border-radius: 37px;
