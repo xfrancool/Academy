@@ -754,7 +754,15 @@ ion-icon {
 }
 #next {
   width: 55px;
-  height: 30px;
+  height: 28px;
+  position: relative;
+  bottom: 8px;
+}
+#next-text {
+  font-size: 27px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: indigo;
+  letter-spacing: 1px;
 }
 #gif2 {
   width: 60px;
