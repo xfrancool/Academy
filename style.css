@@ -546,14 +546,15 @@ ion-icon {
 
 /* Carousel*/
 .swiper {
-  width: 300px;
-  height: 812px;
+  width: 310px;
+  height: 1010px;
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
   text-align: center;
+  box-shadow: none;
 }
 
 .swiper-slide img {
@@ -616,7 +617,7 @@ ion-icon {
 #pcardh {
   position: relative;
   bottom: 10px;
-  left: 10px;
+  right: 35px;
   margin-bottom: -12px;
   bottom: 25px;
 }
@@ -626,6 +627,9 @@ ion-icon {
   position: relative;
   bottom: 3px;
   left: 39px;
+}
+#lista {
+  list-style: none;
 }
 /*-------------------*/
 #carousel1 {
