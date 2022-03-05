@@ -511,7 +511,8 @@ ion-icon {
 }
 .text-t {
   font-weight: bold;
-  color: #227da7;
+  /* color: #227da7; */
+  color: indigo;
   font-size: 25px;
 }
 #aside {
@@ -732,3 +733,5 @@ ion-icon {
   height: 47px;
   border-radius: 37px;
 }
+
+/* Franeli */
