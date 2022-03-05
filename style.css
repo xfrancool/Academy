@@ -547,7 +547,7 @@ ion-icon {
 /* Carousel*/
 .swiper {
   width: 310px;
-  height: 1010px;
+  height: 1030px;
 }
 
 .swiper-slide {
@@ -751,6 +751,10 @@ ion-icon {
   width: 60px;
   height: 47px;
   border-radius: 37px;
+}
+#next {
+  width: 55px;
+  height: 30px;
 }
 #gif2 {
   width: 60px;
