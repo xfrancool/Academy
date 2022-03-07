@@ -785,22 +785,28 @@ ion-icon {
   padding: 0px;
 }
 #ulnav {
-}
-
-.publicidad {
-  margin-bottom: -8px;
-  margin-top: -5px;
-}
-/* #logo {
-  height: 35px;
-  width: 30px;
-  position: relative;
-  left: 25px;
-} */
-#AD {
   position: relative;
   left: 10px;
 }
+
+.publicidad {
+  margin-bottom: -9px;
+  margin-top: -7px;
+}
+
+#AD {
+  position: relative;
+  left: 41px;
+}
 .navbar-toggler-icon {
   font-size: 12px;
+}
+
+#logo {
+  position: relative;
+  width: 60px;
+  height: 47px;
+  left: 45px;
+  bottom: 18px;
+  border-radius: 38px;
 }
