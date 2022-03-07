@@ -54,7 +54,8 @@ body {
   text-align: center;
   background-position: center;
   background-color: transparent;
-  margin-top: 7px;
+  margin-top: -2px;
+  position: relative;
 }
 
 .agrupar {
@@ -201,8 +202,9 @@ address {
     width: 85px;
     position: relative;
   }
-  .publicidad {
-    margin-bottom: 2.3cm;
+  #publicidad {
+    margin-bottom: 82px;
+    margin-top: 4px;
     width: 438px;
     height: 100%;
     margin-left: -39px;
@@ -241,6 +243,10 @@ address {
   #time {
     position: relative;
     top: 12px;
+  }
+
+  .navbar {
+    margin-bottom: 20px;
   }
 
   /* body {
@@ -438,7 +444,6 @@ video {
 #fondov {
   position: fixed;
   min-width: 100%;
-  min-width: 100%;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
@@ -592,11 +597,11 @@ ion-icon {
 }
 #gr {
   position: relative;
-  right: 11px;
+  left: -36px;
 }
 #gr2 {
   position: relative;
-  left: 8px;
+  left: -22px;
 }
 
 .grupo2 {
@@ -711,7 +716,6 @@ ion-icon {
   width: 100%;
 
   height: 70%;
-  border-radius: 38px;
 }
 
 @keyframes cambio {
@@ -775,4 +779,28 @@ ion-icon {
   border-radius: 37px;
 }
 
-/* Franeli */
+/* Navbar */
+.navbar {
+  margin-bottom: -6px;
+  padding: 0px;
+}
+#ulnav {
+}
+
+.publicidad {
+  margin-bottom: -8px;
+  margin-top: -5px;
+}
+/* #logo {
+  height: 35px;
+  width: 30px;
+  position: relative;
+  left: 25px;
+} */
+#AD {
+  position: relative;
+  left: 10px;
+}
+.navbar-toggler-icon {
+  font-size: 12px;
+}
