@@ -810,3 +810,7 @@ ion-icon {
   bottom: 18px;
   border-radius: 38px;
 }
+#log {
+  position: relative;
+  right: 30px;
+}
