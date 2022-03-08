@@ -475,7 +475,7 @@ ion-icon {
 }
 
 .card-body {
-  border-radius: 25px;
+  border-radius: 18px;
   font-family: "Varela Round", sans-serif;
   font-size: 14px;
 }
@@ -787,6 +787,12 @@ ion-icon {
 #ulnav {
   position: relative;
   left: 10px;
+  letter-spacing: 0.5px;
+}
+
+.navbar a:hover {
+  background-color: #ff3c78;
+  border-radius: 8px;
 }
 
 .publicidad {
@@ -801,7 +807,8 @@ ion-icon {
 .navbar-toggler-icon {
   font-size: 12px;
 }
-
+.nav-link {
+}
 #logo {
   position: relative;
   width: 60px;
@@ -813,4 +820,5 @@ ion-icon {
 #log {
   position: relative;
   right: 30px;
+  top: 5px;
 }
