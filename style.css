@@ -189,6 +189,12 @@ address {
   #fuente-personalizada {
     font-size: 80px;
   }
+  #c1 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-left: -135px;
+  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 740px) {
@@ -274,6 +280,13 @@ address {
 
   .navbar {
     margin-bottom: 20px;
+  }
+
+  #c1 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-left: -135px;
   }
 
   /* body {
@@ -849,6 +862,9 @@ ion-icon {
   right: 30px;
   top: 5px;
 }
-.img-ca {
-  width: 50px;
+#c1 {
+  width: 450px;
+  height: 260px;
+  position: relative;
+  left: 135px;
 }
