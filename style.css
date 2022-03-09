@@ -283,10 +283,11 @@ address {
   }
 
   #c1 {
-    width: 200px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
     position: relative;
     margin-left: -135px;
+    border-radius: 80px;
   }
 
   /* body {
@@ -867,4 +868,5 @@ ion-icon {
   height: 260px;
   position: relative;
   left: 135px;
+  border-radius: 75px;
 }
