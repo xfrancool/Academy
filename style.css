@@ -593,7 +593,7 @@ ion-icon {
 /* Carousel*/
 .swiper {
   width: 310px;
-  height: 710px;
+  height: 705px;
 }
 
 .swiper-slide {
@@ -840,10 +840,13 @@ ion-icon {
   margin-bottom: -9px;
   margin-top: -7px;
 }
-
+#log {
+  position: relative;
+  left: -10px;
+}
 #AD {
   position: relative;
-  left: 41px;
+  left: 5px;
 }
 .navbar-toggler-icon {
   font-size: 12px;
