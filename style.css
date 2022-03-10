@@ -82,6 +82,7 @@ body {
   background-color: transparent;
   margin-top: -2px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .agrupar {
