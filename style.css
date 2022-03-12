@@ -76,13 +76,19 @@ body {
   text-decoration: none;
   color: #fff;
 }
-.contenedor .footer a:hover {
+.contenedor .footer #volver:hover {
   background-color: #ff3c78;
   border-radius: 8px;
   padding: 8px;
   text-decoration: none;
 }
-
+#franeli {
+  color: rgb(183, 129, 219);
+}
+#franeli:hover {
+  transition: 1s;
+  color: rgb(107, 202, 162);
+}
 @media screen and (max-width: 1060px) {
   .contenedor {
     grid-template-areas:
