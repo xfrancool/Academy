@@ -336,6 +336,11 @@ span.navbar-toggler-icon {
   color: #fff;
 }
 
+#icon-nav {
+  font-size: 23px;
+  color: #fff;
+}
+
 #log {
   position: relative;
   left: 2px;
