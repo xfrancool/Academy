@@ -67,6 +67,7 @@ body {
   background: #12283e;
   text-align: center;
   color: #fff;
+  padding: 5px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   grid-area: footer;
@@ -76,8 +77,10 @@ body {
   color: #fff;
 }
 .contenedor .footer a:hover {
-  color: #20ba5a;
-  transition: 2s;
+  background-color: #ff3c78;
+  border-radius: 8px;
+  padding: 8px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1060px) {
@@ -333,7 +336,7 @@ body {
   padding: 0;
   width: 400%;
 
-  animation: cambio 15s infinite alternate;
+  animation: cambio 18s infinite alternate;
   animation-timing-function: ease-in;
 }
 
@@ -397,13 +400,11 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
   text-align: center;
   width: 100%;
-  
-  
 }
-.cardin{
+.cardin {
   width: 250px;
   border-radius: 20px;
 }
