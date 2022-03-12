@@ -86,7 +86,7 @@ body {
   color: rgb(183, 129, 219);
 }
 #franeli:hover {
-  transition: 1s;
+  transition: 0.5s;
   color: rgb(107, 202, 162);
 }
 @media screen and (max-width: 1060px) {
