@@ -144,6 +144,10 @@ body {
     left: 135px;
     top: -20px;
   }
+  #lista {
+    position: relative;
+    right: 18px;
+  }
 }
 
 /* --------- */
