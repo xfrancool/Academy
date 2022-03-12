@@ -467,6 +467,10 @@ span.navbar-toggler-icon {
   border-radius: 20px;
 }
 /*-----------Contacto------------*/
+#contact {
+  background: #12283e;
+  color: #fff;
+}
 #icon-contact {
   font-size: 18px;
   position: relative;
