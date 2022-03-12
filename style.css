@@ -148,6 +148,9 @@ body {
     position: relative;
     right: 18px;
   }
+  #modalidad {
+    padding: 5px;
+  }
 }
 
 /* --------- */
