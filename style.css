@@ -137,13 +137,10 @@ body {
     position: relative;
     right: 150px;
   }
-  .swiper-slide img {
-    display: inline-block;
-    width: 60%;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0%;
-    position: relative;
+
+  #imgp {
+    padding: 0px;
+    width: 50%;
   }
   /* #qsomos {
     position: relative;
@@ -170,7 +167,7 @@ body {
 /* Carousel*/
 .swiper {
   width: 50%;
-  height: 710px;
+  height: 720px;
 }
 
 .swiper-slide {
@@ -183,7 +180,7 @@ body {
 
 .swiper-slide img {
   display: inline-block;
-  width: 35%;
+  width: 25%;
   align-items: center;
   justify-content: center;
   margin-bottom: 0%;
