@@ -111,12 +111,7 @@ body {
     position: relative;
     left: 1px;
   }
-  .img-prof {
-    position: relative;
-    width: 800px;
-    height: 450px;
-    left: 43%;
-  }
+
   #card {
     position: relative;
     margin-left: -190px;
@@ -176,11 +171,15 @@ body {
 }
 
 .swiper-slide img {
-  display: block;
+  display: inline-block;
   width: 35%;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 0%;
   position: relative;
-  left: 115px;
+}
+#imgp {
+  padding: 0px;
 }
 
 #lista {
