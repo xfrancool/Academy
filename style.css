@@ -82,6 +82,9 @@ body {
   padding: 8px;
   text-decoration: none;
 }
+#volver {
+  color: #fff;
+}
 #franeli {
   color: rgb(183, 129, 219);
 }
@@ -288,7 +291,7 @@ body {
   letter-spacing: 1.5px;
 }
 
-/* Whatsapp*/
+/*-------------Whatsapp----------*/
 
 .btn-wsp {
   position: fixed;
@@ -311,7 +314,7 @@ body {
   background: #20ba5a;
 }
 
-/* Navbar */
+/*------navbar----------*/
 .navbar {
   margin-bottom: -6px;
   padding: 0px;
