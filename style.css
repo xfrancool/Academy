@@ -14,13 +14,14 @@ body {
   display: grid;
   grid-gap: 3px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(6, auto);
 
   grid-template-areas:
     "navbar navbar navbar"
     "slider slider slider"
     "contenido contenido sidebar"
     "card card card"
+    "contact contact contact"
     "footer footer footer";
 }
 
@@ -63,6 +64,11 @@ body {
   min-height: 100px;
   grid-area: card;
 }
+.contenedor .contact {
+  text-align: center;
+  min-height: 100px;
+  grid-area: contact;
+}
 .contenedor .footer {
   background: #12283e;
   text-align: center;
@@ -100,6 +106,7 @@ body {
       "contenido contenido contenido"
       "card card card"
       "sidebar sidebar sidebar"
+      "contact contact contact"
       "footer footer footer";
   }
 }
@@ -229,6 +236,11 @@ body {
 #gif7 {
   width: 120px;
   height: 80px;
+  border-radius: 37px;
+}
+#gif8 {
+  width: 45px;
+  height: 35px;
   border-radius: 37px;
 }
 #qsomos {
@@ -453,4 +465,17 @@ span.navbar-toggler-icon {
 .cardin {
   width: 250px;
   border-radius: 20px;
+}
+/*-----------Contacto------------*/
+#icon-contact {
+  font-size: 18px;
+  position: relative;
+  left: 4px;
+}
+#icon-contact2 {
+  width: 60px;
+  height: 35px;
+  display: inline-block;
+  position: relative;
+  right: 12px;
 }
