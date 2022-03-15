@@ -223,7 +223,7 @@ span.navbar-toggler-icon {
   padding: 0;
   width: 400%;
 
-  animation: cambio 18s infinite alternate;
+  animation: cambio 20s infinite alternate;
   animation-timing-function: ease-in;
 }
 
@@ -397,10 +397,15 @@ span.navbar-toggler-icon {
   justify-content: space-around;
   text-align: center;
   width: 100%;
+  border: 0px solid white;
 }
 .cardin {
-  width: 250px;
+  width: 280px;
   border-radius: 20px;
+  border: 6px solid #8f0b94;
+  outline: 2px solid #12283e;
+  outline-offset: -2px;
+  padding: 5px;
 }
 /*-----------Contacto------------*/
 #contact {
