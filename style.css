@@ -412,6 +412,8 @@ span.navbar-toggler-icon {
 #contact {
   background: #12283e;
   color: #fff;
+  outline: 2px solid#fff;
+  outline-offset: -5px;
 }
 #icon-contact {
   font-size: 18px;
