@@ -140,7 +140,7 @@ body {
     padding: 0px;
     width: 50%;
   }
-  
+
   /* #qsomos {
     position: relative;
     left: -30px;
@@ -403,9 +403,9 @@ span.navbar-toggler-icon {
 .cardin {
   width: 280px;
   border-radius: 20px;
-  border: 6px solid #8f0b94;
+  /* border: 6px solid #8f0b94;
   outline: 2px solid #12283e;
-  outline-offset: -2px;
+  outline-offset: -2px; */
   padding: 5px;
 }
 /*-----------Contacto------------*/
