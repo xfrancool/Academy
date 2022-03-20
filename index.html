@@ -27,17 +27,20 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="css/hover-min.css" rel="stylesheet" />
   </head>
   <body>
     <div class="contenedor">
       <nav class="navbar navbar-expand-lg text-light" id="nav">
         <div class="container-fluid">
           <h1
-            class="navbar-brand"
+            class="navbar-brand animate__animated animate__jackInTheBox animate__repeat-1"
             id="log"
             href="#"
-            data-aos="zoom-in"
-            data-aos-once="false"
           >
             &nbsp;&nbsp;&nbsp;&nbsp;Academia<br /><span id="AD"
               >Alfil - Dama ♝♕</span
@@ -124,7 +127,12 @@
               data-aos-offset="0"
             >
               <strong>¡Toma tus clases con nosotros!</strong>
-              <img src="img/gif.gif" alt="" class="img-fluid" id="gif" />
+              <img
+                src="img/gif.gif"
+                alt=""
+                class="img-fluid hvr-glow"
+                id="gif"
+              />
             </h1>
             <p datetime="25-07-21" class="text-center mb-1" id="time">
               PARA TODAS LAS EDADES Y NIVELES
@@ -261,7 +269,12 @@
               data-aos-once="true"
             >
               <strong>¡Nuestros Profes!</strong>
-              <img src="img/gif5.gif" alt="" class="img-fluid" id="gif" />
+              <img
+                src="img/gif5.gif"
+                alt=""
+                class="img-fluid hvr-push"
+                id="gif"
+              />
             </h1>
 
             <div class="swiper-wrapper">
@@ -499,7 +512,12 @@
             data-aos-once="true"
           >
             Modalidades
-            <img src="img/gif6.gif" alt="" class="img-fluid" id="gif" />
+            <img
+              src="img/gif6.gif"
+              alt=""
+              class="img-fluid hvr-glow"
+              id="gif"
+            />
           </h4>
 
           <img class="teacher img-fluid mt-5" src="Img/stik2.svg" alt="" />
@@ -586,37 +604,43 @@
           data-aos-offset="0"
         >
           <strong>Objetivos</strong>
-          <img src="img/gif7.gif" alt="" class="img-fluid" id="gif7" />
+          <img src="img/gif7.gif" alt="" class="img-fluid hvr-push" id="gif7" />
         </h1>
         <div class="card" id="carde">
           <div>
-            <img class="cardin" src="img/cardin.png" alt="" />
-            <h5><strong>MEJORAR EL ENTRENAMIENTO</strong></h5>
+            <img class="cardin hvr-push" src="img/cardin.png" alt="" />
+            <p id="textcard"><strong>MEJORAR EL ENTRENAMIENTO</strong></p>
           </div>
           <div>
-            <img class="cardin" src="img/cardin2.png" alt="" />
-            <h5><strong>RESPETO AL RIVAL</strong></h5>
+            <img class="cardin hvr-push" src="img/cardin2.png" alt="" />
+            <p id="textcard"><strong>RESPETO AL RIVAL</strong></p>
           </div>
           <div>
-            <img class="cardin" src="img/cardin3.png" alt="" />
-            <h5><strong>PREPARACIÓN PARA TORNEOS</strong></h5>
+            <img class="cardin hvr-push" src="img/cardin3.png" alt="" />
+            <p id="textcard"><strong>PREPARACIÓN PARA TORNEOS</strong></p>
           </div>
           <div>
-            <img class="cardin" src="img/cardin4.png" alt="" />
-            <h5><strong>DESARROLLAR EL PENSAMIENTO CRÍTICO</strong></h5>
+            <img class="cardin hvr-push" src="img/cardin4.png" alt="" />
+            <p id="textcard">
+              <strong>DESARROLLAR EL PENSAMIENTO CRÍTICO</strong>
+            </p>
           </div>
         </div>
       </div>
       <div class="contact" id="contact">
         <h1 id="fuente-nueva" class="ds-2">
           <strong>Contacto</strong>
-          <img src="Img/gif8.gif" alt="" class="img-fluid" id="gif8" />
+          <img src="Img/gif8.gif" alt="" class="img-fluid hvr-push" id="gif8" />
         </h1>
         <div id="social">
           <h5>
             Escríbenos a nuestro email
             <a href="mailto:academiadeajedrezalfildama@gmail.com"
-              ><img src="img/contact1.svg" alt="" id="icon-contact"
+              ><img
+                src="img/contact1.svg"
+                alt=""
+                class="hvr-float-shadow"
+                id="icon-contact"
             /></a>
           </h5>
           <h5>
@@ -624,18 +648,30 @@
             <a
               href="https://api.whatsapp.com/send?phone=+5493548500137&text=Hola, mire su página web y tengo interés en inscribirme en la  Academia!"
               target="_blank"
-              ><img src="img/contact2.svg" alt="" id="icon-contact2"
+              ><img
+                src="img/contact2.svg"
+                alt=""
+                class="hvr-float-shadow"
+                id="icon-contact2"
             /></a>
           </h5>
         </div>
       </div>
 
       <footer class="footer">
-        <a href="#nav" id="volver"><strong>Regresar al inicio</strong></a>
+        <a
+          href="#nav"
+          id="volver"
+          class="animate__animated animate__flash animate__delay-2s animate__slower animate__repeat-2"
+          ><strong>Regresar al inicio</strong></a
+        >
         <!-- <a href="tarjeta/tarjeta.html">Acerca de mi</a> -->
         <p class="text-light h5 rounded-3">
           © Todos los derechos reservados |
-          <a href="https://xfrancool.github.io/portafolio/" id="franeli"
+          <a
+            href="https://xfrancool.github.io/portafolio/"
+            class=""
+            id="franeli"
             >Franeli</a
           >
         </p>
@@ -643,7 +679,7 @@
 
       <a
         href="https://api.whatsapp.com/send?phone=+5493548500137&text=Hola, mire su página web y estoy interesado en comenzar mis clases en la  Academia!"
-        class="btn-wsp"
+        class="btn-wsp animate__animated animate__bounceInUp animate__delay-4s"
         target="_blank"
       >
         <i class="fa fa-whatsapp icono"></i>
