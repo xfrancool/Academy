@@ -6,6 +6,9 @@ body {
   background: fff;
   color: black;
 }
+img {
+  max-width: 100%;
+}
 
 .contenedor {
   width: 95%;
