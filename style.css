@@ -193,6 +193,12 @@ img {
   border-radius: 8px;
   padding: 8px;
   text-decoration: none;
+  margin-left: 4px;
+}
+.navbar a.active {
+  background-color: #ff3c78;
+  color: #fff;
+  border-radius: 8px;
 }
 span.navbar-toggler-icon {
   font-size: 12px;
