@@ -11,7 +11,7 @@ img {
 }
 
 .contenedor {
-  width: 95%;
+  width: 90%;
   max-width: 1300px;
   margin: 5px auto;
   display: grid;
@@ -106,6 +106,9 @@ img {
 }
 
 @media only screen and (min-width: 260px) and (max-width: 500px) {
+  .contenedor {
+    width: 98%;
+  }
   #hd {
     font-size: 20px;
     width: 30px;
@@ -447,7 +450,7 @@ span.navbar-toggler-icon {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.025);
   text-align: center;
   transition: height 1000ms;
-  width: 270px;
+  width: 260px;
   display: inline-block;
 }
 
